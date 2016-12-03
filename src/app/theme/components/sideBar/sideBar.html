@@ -1,0 +1,29 @@
+<!--
+
+    Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
+    Tip 2: you can also add an image using data-image tag
+
+-->
+
+<div class="sidebar" data-color="red" data-image="assets/img/sidebar-5.jpg">
+    <div class="sidebar-wrapper">
+        <div class="logo">
+            <a href="http://www.creative-tim.com" class="simple-text">
+                Angular2 Bootstrap
+            </a>
+        </div>
+
+        <ul class="nav">
+            <!-- li class="active" -->
+            <li *ngFor="let menu of sideBarMenus; let i = index" (click)="setClickedRow(i)" [class.active]="i == selectedRow">
+
+                <a routerLink="{{ menu.routerlink }}" routerLinkActive="active">
+                    <i class="{{ menu.icon }}"></i>
+                    <p>{{ menu.name }}</p>
+                </a>
+
+            </li>
+        </ul>
+    </div>
+</div>
+

@@ -1,12 +1,18 @@
 import { Component } from '@angular/core';
-
-// http://codereview.stackexchange.com/questions/125180/modal-component-in-angular-2
+import { Router, ActivatedRoute, Params } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html'  
+  template:  `
+    <h2>CRISIS CENTER</h2>
+    <router-outlet></router-outlet>
+  `
 })
-export class AppComponent {
+export class CrisisCenterComponent { 
+  constructor(
+    private router: Router) {
+  }
+
+
 }
 
 

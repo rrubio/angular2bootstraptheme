@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
 
-// http://codereview.stackexchange.com/questions/125180/modal-component-in-angular-2
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html'  
+  template:  `
+    <p>Manage your heroes here</p>
+  `
 })
-export class AppComponent {
-}
+export class ManageHeroesComponent { }
 
 
 /*
