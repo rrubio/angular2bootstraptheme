@@ -1,5 +1,14 @@
 # SimpleTemplate
 
+If you're like and not happy with current ang2 templates, you're in luck because there is an abundance of sexy looking templates. I've used a free sexy bootstrap template from Creative Tim http://www.creative-tim.com please do check them out.
+
+# About the dashboard
+
+Thought it would be a good exercise to utilise an existing template and plug it onto an angular 2 app. This example makes usage of angular 2 quick start examples and retry fitted to working within the template. 
+You'll notice some basic animation and the usage of observables betwee the side bar and the top nav bar. 
+
+# The project 
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.20-4.
 
 ## Development server
