@@ -4,7 +4,7 @@ If you're like me and not happy with current ang2 templates, you're in luck beca
 
 # About the dashboard
 
-Thought it would be a good exercise to utilise an existing template and plug it onto an angular 2 app. This example makes usage of angular 2 quick start examples and retry fitted to working within the template. 
+Thought it would be a good exercise to utilise an existing template and plug it onto an angular 2 app. This example makes usage of angular 2 quick start examples and retro fitted to working within the template. 
 You'll notice some basic animation and the usage of observables between the side bar and the top nav bar. 
 
 # Reference
